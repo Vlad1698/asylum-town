@@ -1,0 +1,62 @@
+{
+  "sorrowphanton": {
+    "name": {
+      "plural": "Sorrow Apparitions",
+      "singular": "Sorrow Apparition"
+    },
+    "advMapAmount": {
+ "max" : 16,
+ "min" : 10
+    },
+    "faction": "asylum",
+    "aiValue": 586,
+    "attack": 12,
+    "cost": {
+      "gold": 380
+    },
+    "damage": {
+ "max" : 10,
+ "min" : 6
+    },
+    "defense": 11,
+    "fightValue": 563,
+    "graphics": {
+      "animation": "asylum/battle/creatures/CPST4U.def",
+      "map": "asylum/map/creatures/AVWC184.def",
+      "iconSmall": "asylum/iconsSmall/creatures/CPRS184Y.bmp",
+      "iconLarge": "asylum/iconsBig/creatures/CPRL184Y.bmp",
+      "timeBetweenFidgets": 1,
+      "animationTime": {
+        "walk": 1.50,
+        "attack": 1,
+        "idle": 10,
+        "flight": 1
+      }
+    },
+    "growth": 4,
+    "horde": 2,
+    "hitPoints": 30,
+    "level": 4,
+    "sound": {
+      "attack": "asylum/CPS4ATTK.wav",
+      "defend": "asylum/CPS4DFND.wav",
+      "killed": "asylum/CPS4KILL.wav",
+      "move": "asylum/CPS4MOVE.wav",
+      "wince": "asylum/CPS4WNCE.wav"
+    },
+    "speed": 12,
+    "abilities": {
+      "canFly": {
+        "type": "FLYING"
+      },
+      "undead": {
+        "type": "UNDEAD"
+      },
+      "caster": {
+        "type" : "SPELL_AFTER_ATTACK",
+				"subtype" : "spell.sorrow",
+				"val" : 100
+      }
+    }
+  }	
+	}

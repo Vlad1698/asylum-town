@@ -15,7 +15,7 @@
 		"1.07"   : [ "New DAEMON_SUMMONING format", "Arrow towers icons"],		
 		"1.06"   : [ "Partial special buildings support"],
 		"1.05"   : [ "new models and animations, new spells"],
-        "1.02"   : [ "Upgaded graphic", "Hero males and female sprites on the battlefields", "Small fixes" ],
+		"1.02"   : [ "Upgaded graphic", "Hero males and female sprites on the battlefields", "Small fixes" ],
 		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
 		"1.00"   : [ "Initial release" ]
     },

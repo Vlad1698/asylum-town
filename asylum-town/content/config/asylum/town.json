@@ -312,9 +312,11 @@
 				},
 				"special1" : 
 				{
-					"description" : "The Arcane Vine increases the Spellpower by +3 for heroes in a siege war (partially working - now adds +2 SP to garrison heroes).",
+					"description" : "The Arcane Vine increases the Spellpower by +3 for heroes in a siege war.",
 					"name" : "Arcane Vine",
-					"type" : "spellPowerGarrisonBonus",
+					"bonuses": [ 
+						{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 3 } 
+					],
 					"cost" : 
 					{
 						"crystal": 2,
@@ -326,7 +328,9 @@
 			"special2": {
 				"description": "The Misfortune Pool will decrease enemy's luck by 1 in a siege war (partially working - now adds +2 luck to garrison heroes).",
 				"name": "Misfortune Pool",
-				"type" : "fountainOfFortune",
+				"bonuses": [ 
+					{ "type": "LUCK", "val": -2, "effectRange":"ONLY_ENEMY_ARMY", "limiters" : "OPPOSITE_SIDE" } 
+				],
 				"cost": {
 					"gold": 1000
 				},
@@ -363,10 +367,14 @@
 				},
 				"grail" :
 				{
-					"description" : "The presence of the Starlight Mirage increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases the Power of a garrison hero by +10 when defending against a siege.",
+					"description" : "The presence of the Starlight Mirage increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day, and increases the Power and Knowledge of a garrison hero by +5 when defending against a siege.",
 					"name" : "Starlight Mirage",
 					"id" : 26,
-					"mode" : "grail"
+					"mode" : "grail",
+						"bonuses": [ 
+							{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 5 },
+							{ "type": "PRIMARY_SKILL", "subtype": "primSkill.knowledge", "val": 5 },
+						]
 				},
 				"dwellingLvl1" :
 				{
@@ -680,6 +688,8 @@
 			"siege" : {
 				"shooter" : "shadowhunter",
 				"imagePrefix" : "asylum/siege/SGPS",
+				"towerIconSmall" : "asylum/icons/arrowtowerssmall",
+				"towerIconLarge" : "asylum/icons/arrowtowerslarge",
 				"gate" :
 				{
 					"arch" : { "x" : 486, "y" : 232 },
@@ -1068,35 +1078,35 @@
 		"warMachine" : "ammoCart",
 		"moatDamage" : 90,
 		"hallSlots" : [
-				[
-					[ "villageHall", "townHall", "cityHall", "capitol" ],
-					[ "fort", "citadel", "castle" ],
-					[ "tavern" ],
-					[ "blacksmith" ]
-				],
-				[
-					[ "marketplace", "resourceSilo" ],
-          [ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
-          [ "special1" ],
-					[ "dock" ]
-				],
-				[
-          [ "special2" ],
-            [ "horde2", "horde2Upgr" ],
-			    	[ "horde1", "horde1Upgr" ]
-				],
-				[
-					[ "dwellingLvl1", "dwellingUpLvl1" ],
-					[ "dwellingLvl2", "dwellingUpLvl2" ],
-					[ "dwellingLvl3", "dwellingUpLvl3" ],
-					[ "dwellingLvl4", "dwellingUpLvl4" ]
-				],
-				[
-					[ "dwellingLvl5", "dwellingUpLvl5" ],
-					[ "dwellingLvl6", "dwellingUpLvl6" ],
-					[ "dwellingLvl7", "dwellingUpLvl7" ]
-				]
+			[
+				[ "villageHall", "townHall", "cityHall", "capitol" ],
+				[ "fort", "citadel", "castle" ],
+				[ "tavern" ],
+				[ "blacksmith" ]
+			],
+			[
+				[ "marketplace", "resourceSilo" ],
+				[ "mageGuild1", "mageGuild2", "mageGuild3", "mageGuild4", "mageGuild5" ],
+				[ "special1" ],
+				[ "dock" ]
+			],
+			[
+				[ "special2" ],
+				[ "horde2", "horde2Upgr" ],
+			    [ "horde1", "horde1Upgr" ]
+			],
+			[
+				[ "dwellingLvl1", "dwellingUpLvl1" ],
+				[ "dwellingLvl2", "dwellingUpLvl2" ],
+				[ "dwellingLvl3", "dwellingUpLvl3" ],
+				[ "dwellingLvl4", "dwellingUpLvl4" ]
+			],
+			[
+				[ "dwellingLvl5", "dwellingUpLvl5" ],
+				[ "dwellingLvl6", "dwellingUpLvl6" ],
+				[ "dwellingLvl7", "dwellingUpLvl7" ]
 			]
+		]
 		}
 	}
 }

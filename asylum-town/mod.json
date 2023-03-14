@@ -4,8 +4,21 @@
 	
 	"author" : "FF Team, mod : Turbanellos",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.06",
+	"version" : "1.07",
 	"modType" : "Town",	
+	"compatibility" :
+	{
+		"min" : "1.2.0"
+	},	
+	"changelog" :
+    {
+		"1.07"   : [ "New DAEMON_SUMMONING format", "Arrow towers icons"],		
+		"1.06"   : [ "Partial special buildings support"],
+		"1.05"   : [ "new models and animations, new spells"],
+		"1.02"   : [ "Upgaded graphic", "Hero males and female sprites on the battlefields", "Small fixes" ],
+		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
+		"1.00"   : [ "Initial release" ]
+    },
 	"german" : {
 		"name" : "Zuflucht",
 		"description" : "Zuflucht Stadt",
@@ -14,7 +27,6 @@
 			"translation/german.json"
 		]
 	},	
-	
     "factions" : [ "config/asylum/town" ],
 	
 	"creatures" :
@@ -68,15 +80,7 @@
 	"spells" :
 	[
 		"config/asylum/NewOldSpells/terrorEye.json",
-		"config/asylum/NewOldSpells/seduce.json"
-	],
-	"changelog" :
-    {
-		
-		"1.06"   : [ "Partial special buildings support"],
-		"1.05"   : [ "new models and animations, new spells"],
-        "1.02"   : [ "Upgaded graphic", "Hero males and female sprites on the battlefields", "Small fixes" ],
-		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
-		"1.00"   : [ "Initial release" ]
-    }
+		"config/asylum/NewOldSpells/seduce.json",
+		"config/asylum/NewOldSpells/summonSadPhanton.json"
+	]
 }

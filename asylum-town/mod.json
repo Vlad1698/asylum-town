@@ -19,6 +19,14 @@
 		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
 		"1.00"   : [ "Initial release" ]
     },
+	"german" : {
+		"name" : "Zuflucht",
+		"description" : "Zuflucht Stadt",
+		"modType" : "Stadt",		
+		"translations" : [
+			"translation/german.json"
+		]
+	},	
     "factions" : [ "config/asylum/town" ],
 	
 	"creatures" :

@@ -24,7 +24,7 @@
 		"description" : "Zuflucht Stadt",
 		"modType" : "Stadt",		
 		"translations" : [
-			"translation/german.json"
+			"translation/asylum/german.json"
 		]
 	},	
     "factions" : [ "config/asylum/town" ],

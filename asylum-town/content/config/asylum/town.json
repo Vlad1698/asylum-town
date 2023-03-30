@@ -322,18 +322,24 @@
 						"crystal": 2,
 						"gems": 2,
 						"gold" : 1000
-					},
+					}
 //					"id" : 17
 				},
 			"special2": {
 				"description": "The Misfortune Pool will decrease enemy's luck by 1 in a siege war (partially working - now adds +2 luck to garrison heroes).",
 				"name": "Misfortune Pool",
 				"bonuses": [ 
-					{ "type": "LUCK", "val": -2, "effectRange":"ONLY_ENEMY_ARMY", "limiters" : "OPPOSITE_SIDE" } 
+					{ 
+						"type": "LUCK", 
+						"val": -2, 
+						"propagator": "BATTLE_WIDE",
+						"propagationUpdater" : "BONUS_OWNER_UPDATER",
+						"limiters" : [ "OPPOSITE_SIDE" ]
+					} 
 				],
 				"cost": {
 					"gold": 1000
-				},
+				}
 //          	"id": 22
 			},	
         "horde2" :
@@ -373,7 +379,7 @@
 					"mode" : "grail",
 						"bonuses": [ 
 							{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 5 },
-							{ "type": "PRIMARY_SKILL", "subtype": "primSkill.knowledge", "val": 5 },
+							{ "type": "PRIMARY_SKILL", "subtype": "primSkill.knowledge", "val": 5 }
 						]
 				},
 				"dwellingLvl1" :
@@ -1071,7 +1077,7 @@
 					"border" : "asylum/town-screen/buildings-border/TOPSup_6",
 					"x" : 0,
 					"y" : 0
-				},
+				}
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "asylum/town-screen/background.bmp",

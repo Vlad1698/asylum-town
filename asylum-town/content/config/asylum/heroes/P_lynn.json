@@ -63,7 +63,9 @@
 			"bonuses" : {
 				"fortune" : {
 					"subtype" : "spell.sorrow",
-					"type" : "MAXED_SPELL"
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
 				}
 			}
 		}

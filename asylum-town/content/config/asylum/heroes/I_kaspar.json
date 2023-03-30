@@ -63,7 +63,9 @@
 			"bonuses" : {
 				"berserk" : {
 					"subtype" : "spell.berserk",
-					"type" : "MAXED_SPELL"
+					"type" : "SPELL",
+					"val" : 3,
+					"valueType" : "INDEPENDENT_MAX"
 				}
 			}
 		}

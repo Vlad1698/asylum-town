@@ -62,10 +62,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"blind" : {
+					"addInfo" : 3,
 					"subtype" : "spell.blind",
-					"type" : "SPELL",
-					"val" : 3,
-					"valueType" : "INDEPENDENT_MAX"
+					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
 				}
 			}
 		}

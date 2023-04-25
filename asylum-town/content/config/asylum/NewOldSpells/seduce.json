@@ -2,7 +2,7 @@
 	"seduce":
 	{
 		"type": "combat", 
-		"name": "Mental Shackles",
+		"name": "Maleficent Curse",
 		"school":
 		{
 			"air": true,
@@ -52,7 +52,7 @@
 		{
 			"cast": "HYPNOTIZ"
 		},
-		"targetType" : "CREATURE",
+		"targetType" : "LOCATION",
  
 		"levels":
 		{
@@ -68,89 +68,87 @@
 			},
 			"none":
 			{
-				"description": "{Mental Shackles}\r\n\r\nMake one troop of enemies be controlled after attacked or being attacked.",
+				"description": "{Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.",
 	 
 				"cost": 30,
-	 
+				"range" : "0-1",
 				"effects":
 				{
 					"undead":
 					{
-						"type": "HYPNOTIZED",
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NOT_ACTIVE",
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					},
 					"speed":
 					{
-						"type": "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"val": -50,
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NO_RETALIATION",
+						"val": 0,
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					}
 				}
 			},
 			"basic":
 			{
-				"description": "{Mental Shackles}\r\n\r\nMake one troop of enemies be controlled after attacked or being attacked.",
+				"description": "{Basic Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.",
 	 
-				"cost": 25,
+				"cost": 30,
 	 
+				"range" : "0-1",
 				"effects":
 				{
 					"undead":
 					{
-						"type": "HYPNOTIZED",
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NOT_ACTIVE",
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					},
 					"speed":
 					{
-						"type": "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"val": -50,
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NO_RETALIATION",
+						"val": 0,
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					}
 				}
 			},
 			"advanced":
 			{
-				"description": "{Mental Shackles}\r\n\r\nMake one troop of enemies be controlled after attacked or being attacked.",
+				"description": "{Advanced Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.",
 	 
-				"cost": 22,
-	 
+				"cost": 25,
+				
+				"range" : "0-1",
 				"effects":
 				{
 					"undead":
 					{
-						"type": "HYPNOTIZED",
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NOT_ACTIVE",
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					},
 					"speed":
 					{
-						"type": "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"val": -30,
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NO_RETALIATION",
+						"val": 0,
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					}
 				}
 			},
 			"expert":
 			{
-				"description": "{Mental Shackles}\r\n\r\nMake one troop of enemies be controlled after attacked or being attacked.",
+				"description": "{Expert Maleficent Curse}\r\n\r\nMake a range of troops fall into a deep sleep.\n\nRange is larger than basic.\n",
 	 
-				"cost": 20,
-	 
+				"cost": 25,
+				"range" : "0-2",
 				"effects":
 				{
 					"undead":
 					{
-						"type": "HYPNOTIZED",
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NOT_ACTIVE",
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					},
 					"speed":
 					{
-						"type": "STACKS_SPEED",
-						"valueType" : "PERCENT_TO_ALL",
-						"val": -20,
-						"duration": ["UNTIL_ATTACK","UNTIL_BEING_ATTACKED"]
+						"type": "NO_RETALIATION",
+						"val": 0,
+						"duration": ["N_TURNS","UNTIL_BEING_ATTACKED"]
 					}
 				}
 			}

@@ -57,14 +57,52 @@
       "noMind": {
         "type": "MIND_IMMUNITY"
       },
-	  "expertSlayer" : { "type" : "KING", "val" : 3, "valueType" : "ADDITIVE_VALUE" },
+	  "expertSlayer" : { "type" : "KING", "val": 3 },
       "FLYING_ARMY": {
         "type": "FLYING",
-        "subtype": 1
+        // type loaded from crtraits
+        "subtype": 1 // teleports
       },
       "blockRetaliation": {
         "type": "BLOCKS_RETALIATION"
       }
-    }
+    },
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL"
+//					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 ]
+			}
+		]
   }	
-}
+	}

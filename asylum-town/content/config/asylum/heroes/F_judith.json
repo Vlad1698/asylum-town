@@ -55,7 +55,7 @@
 			}
 		],
 		
-		"specialty" : {
+			"specialty" : {
 			"creature" : "spiritcrus"
 		}
 	}

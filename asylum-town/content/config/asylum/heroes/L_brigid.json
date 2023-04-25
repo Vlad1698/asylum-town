@@ -6,8 +6,8 @@
 		
 		"texts" :
 		{
-			"name" : "Brigid",
-			"biography" : "Brigid used to be a magic apprentice in Bracada, but he was deported because he wanted to learn dark magic. He could never quit for his interest although he cannot study in college any more.",
+			"name" : "Brid",
+			"biography" : "Brid used to be a magic apprentice in Bracada, but he was deported because he wanted to learn dark magic. He could never quit for his interest although he cannot study in college any more.",
 			"specialty" :
 			{
 				"description" : "{Blind}\r\n\r\nCasts Blind with expert effects but not expert range.",

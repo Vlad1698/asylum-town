@@ -52,6 +52,130 @@
 			{
 				"type" : "MIND_IMMUNITY"
 			}
-    }
+    },
+		"stackExperience" :
+		[
+			{
+				"bonus" :
+				{
+					"subtype" : 0,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1,
+					"type" : "PRIMARY_SKILL",
+					"valueType" : "BASE_NUMBER"
+				},
+				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
+			},	
+			{
+				"bonus" :
+				{
+					"subtype" : 1, //min
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"subtype" : 2, //max
+					"type" : "CREATURE_DAMAGE"
+				},
+				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : 0
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "GENERAL_DAMAGE_REDUCTION",
+					"subtype" : 1
+				},
+				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]	
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 0 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 1 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 2 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 3 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 6 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 7 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 8 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "HATE",
+					"subtype" : 9 
+				},
+				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
+			},
+			{
+				"bonus" :
+				{
+					"type" : "STACKS_SPEED"
+				},
+				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
+			}
+		]
   }	
 	}

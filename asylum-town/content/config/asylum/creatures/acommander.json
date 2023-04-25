@@ -3,24 +3,33 @@
 	{
 		"name" :
 		{
-			"plural" : "Phantom Creators",
-			"singular" : "Phantom Creator"
+			"plural" : "Demons of Dream",
+			"singular" : "Demon of Dream"
+		},
+		"advMapAmount" :
+		{
+			 "min" : 16,
+			 "max" : 25
 		},
 		"special" : true,
-		"faction" : "asylum",
-		"aiValue" : 1021,
+		"faction" : "neutral",
+		"aiValue" : 1000,
 		"attack" : 5,
 		"damage" :
 		{
-			 "max" : 15,
-			 "min" : 5
+			 "max" : 10,
+			 "min" : 10
 		},
 		"defense" : 5,
-		"fightValue" : 916,
+		"fightValue" : 1000,
+		"cost" :
+		{
+			"gold" : 140
+		},
 		"graphics" :
 		{
 			"animation" : "asylum/battle/creatures/acommander.def",
-			"map" : "asylum/map/creatures/mapacommander.def",
+//			"map" : "asylum/map/creatures/mapacommander.def",
 			"iconSmall" : "asylum/iconsSmall/creatures/acommander.bmp",
 			"iconLarge" : "asylum/iconsBig/creatures/acommander.bmp",
 			"timeBetweenFidgets" : 1,
@@ -47,8 +56,9 @@
 
 			}
 		},
-		"growth" : 1,
-		"hitPoints" : 60,
+		"growth" : 9,
+		"hasDoubleWeek": false,
+		"hitPoints" : 50,
 		"level" : 0,
 		"shots" : 24,
 		"sound" :
@@ -92,6 +102,10 @@
 				"type" : "SPELLCASTER",
 				"subtype" : "spell.bloodlust",
 				"val" : 3
+			},
+			"noMeleePenalty" :
+			{
+				"type" : "NO_MELEE_PENALTY"
 			}
 	    }
 	}

@@ -2,7 +2,7 @@
 	"terrorEye":
 	{
 		"type": "ability", 
-		"name": "Demonic Eyes",
+		"name": "Terror Eye",
 		"school":
 		{
 			"air": false,
@@ -64,7 +64,7 @@
 			},
 			"none":
 			{
-				"description": "{Dread Eyes}",
+				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
 	 
@@ -79,7 +79,7 @@
 			},
 			"basic":
 			{
-				"description": "{Dread Eyes}",
+				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
 	 
@@ -94,7 +94,7 @@
 			},
 			"advanced":
 			{
-				"description": "{Dread Eyes}",
+				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
 	 
@@ -109,7 +109,7 @@
 			},
 			"expert":
 			{
-				"description": "{Dread Eyes}",
+				"description": "{Terror Eye}\r\n\r\nYou cannot see this description.",
 	 
 				"cost": 0,
 				"range": "X",

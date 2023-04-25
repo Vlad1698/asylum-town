@@ -7,7 +7,7 @@
 		"texts" :
 		{
 			"name" : "Mog",
-			"biography" : "Mog spends many year to research the psychic power. As an experiment, he controlled Dainwin, a knight in Enroth. Now he comes to a new land for increasing his power, and realizes his amibition.",
+			"biography" : "Mog spent many year to research the psychic power. As an experiment, he controlled Dainwin, a knight in Enroth. Now he comes to a new land for increasing his power, and realizes his amibition.",
 			"specialty" :
 			{
 				"description" : "{Intelligence}\r\n\r\nReceives a 5% per level bonus to Intelligence skill percentage.",
@@ -59,14 +59,14 @@
 			}
 		],
 		
-		"specialty" : {
+"specialty" : {
 			"bonuses" : {
 				"intelligence" : {
 					"targetSourceType" : "SECONDARY_SKILL",
 					"type" : "MANA_PER_KNOWLEDGE",
+					"updater" : "TIMES_HERO_LEVEL",
 					"val" : 5,
-					"valueType" : "PERCENT_TO_TARGET_TYPE",
-					"updater" : "TIMES_HERO_LEVEL"
+					"valueType" : "PERCENT_TO_TARGET_TYPE"
 				}
 			}
 		}

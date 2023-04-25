@@ -59,12 +59,23 @@
 			}
 		],
 		
-		"specialty" : {
-			"bonuses" : {
-				"fortune" : {
-					"addInfo" : 3,
-					"subtype" : "spell.sorrow",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+		"specialty": 
+		{
+			"bonuses":
+			{
+				"choir":
+				{
+					"type": "OPENING_BATTLE_SPELL",
+					"subtype": "spell.sorrow",
+					"val" : 3,
+					"valueType" : "BASE_NUMBER"
+				},
+				"bind" : 
+				{
+				"subtype" : "spell.sorrow",
+				"type" : "SPELL",
+				"val" : 1,
+				"valueType" : "BASE_NUMBER"
 				}
 			}
 		}

@@ -1,34 +1,18 @@
 {
 	"name" : "Asylum Town",
-	"description" : "New town made by Turbanellos, The Forgotten Fields. Asylum Town is a new force with mental attack.",
+	"description" : "Asylum Town remade from Ben in Apr. 2023",
 	
-	"author" : "FF Team, mod : Turbanellos",
+	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "1.08",
+	"version" : "2.00",
 	"modType" : "Town",	
+	
+    "factions" : [ "config/asylum/town" ],
+	"depends" : ["stardust-terrain"], 
 	"compatibility" :
 	{
 		"min" : "1.2.0"
-	},	
-	"changelog" :
-    {
-		"1.08"   : [ "Changes for vcmi-1.2 version" ],		
-		"1.07"   : [ "New DAEMON_SUMMONING format", "Arrow towers icons" ],		
-		"1.06"   : [ "Partial special buildings support"],
-		"1.05"   : [ "new models and animations, new spells"],
-        "1.02"   : [ "Upgaded graphic", "Hero males and female sprites on the battlefields", "Small fixes" ],
-		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
-		"1.00"   : [ "Initial release" ]
-    },
-	"german" : {
-		"name" : "Zuflucht",
-		"description" : "Zuflucht Stadt",
-		"translations" : [
-			"translation/asylum/german.json"
-		]
-	},	
-    "factions" : [ "config/asylum/town" ],
-	
+	},		
 	"creatures" :
 	[
 		"config/asylum/creatures/darksquire.json",
@@ -45,6 +29,7 @@
 		"config/asylum/creatures/shadowmare.json",
 		"config/asylum/creatures/plwalker.json",
 		"config/asylum/creatures/voidwalker.json",
+		"config/asylum/creatures/jesterDeliver.json",
 		"config/asylum/creatures/acommander.json"
 	],
 	
@@ -72,6 +57,7 @@
 		"config/asylum/heroes/N_jezebel.json",
 		"config/asylum/heroes/O_margareta.json",
 		"config/asylum/heroes/P_lynn.json"
+//		"config/asylum/classes/campaignHeroes.json"
 	],
 	 "objects":
     [
@@ -80,7 +66,30 @@
 	"spells" :
 	[
 		"config/asylum/NewOldSpells/terrorEye.json",
-		"config/asylum/NewOldSpells/seduce.json",
-		"config/asylum/NewOldSpells/summonSadPhanton.json"
-	]
+		"config/asylum/NewOldSpells/birthdayGift.json",
+		"config/asylum/NewOldSpells/summonJester.json",
+		"config/asylum/NewOldSpells/summonApps.json",
+		"config/asylum/NewOldSpells/seduce.json"
+	],
+	"changelog" :
+    {
+        "2.00"	: [ "Add stardust terrian for Asylum. New BGM for stardust which was made by myself" ],
+		"1.50"	: [ "Some new partitions" ],
+		"1.20"	 : [ "Small fixes and a spell Gift Delivery for my 30th birthday, original name is Birthday Gift"],
+		"1.10"   : [ "Small fixes" ],
+		"1.08"   : [ "Changes for vcmi-1.2 version" ],		
+		"1.07"   : [ "New DAEMON_SUMMONING format", "Arrow towers icons" ],		
+		"1.06"   : [ "Partial special buildings support"],
+		"1.05"   : [ "new models and animations, new spells"],
+		"1.02"   : [ "Upgaded graphic", "Hero males and female sprites on the battlefields", "Small fixes" ],
+		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
+		"1.00"   : [ "Initial release" ]
+    },
+	"german" : {
+		"name" : "Zuflucht",
+		"description" : "Zuflucht Stadt",
+		"translations" : [
+			"translation/asylum/german.json"
+		]
+	}
 }

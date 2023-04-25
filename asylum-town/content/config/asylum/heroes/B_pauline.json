@@ -33,9 +33,9 @@
 				"min" : 20
 			},
 			{
-				"creature" : "winddancer",
-				"max" : 8,
-				"min" : 5
+				"creature" : "shadowhunter",
+				"max" : 7,
+				"min" : 4
 			},
 			{
 				"creature" : "shadowhunter",
@@ -55,7 +55,7 @@
 			}
 		],
 		
-		"specialty" : {
+				"specialty" : {
 			"creature" : "shadowhunter"
 		}
 	}

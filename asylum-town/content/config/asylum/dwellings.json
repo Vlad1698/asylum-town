@@ -9,7 +9,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "asylum/map/dwellings/AVG177",
-                        "mask" : ["VVV","VBB","BBA" ]
+                        "mask" : ["VVV","VBV","VBA" ]
                     }
                 }
             },
@@ -20,7 +20,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "asylum/map/dwellings/AVG179",
-                        "mask" : [ "VBB", "VBA" ]
+                        "mask" : [ "VVV", "VAB" ]
                     }
                 }
             },
@@ -31,7 +31,7 @@
                 "templates" : {
                     "default" : {   
                         "animation" : "asylum/map/dwellings/AVG181",
-                        "mask" : ["VVV","VBB","VBA" ]
+                        "mask" : ["VVV","VVV","VBA" ]
                     }
                 }
             },
@@ -41,12 +41,12 @@
                 "templates" : {
                     "default" : {
                         "animation" : "asylum/map/dwellings/AVG183",
-                        "mask" : ["VVV","VBB","VAB" ]
+                        "mask" : ["VVV","VVV","VAB" ]
                     }
                 }
             },
             "asylumLevel5" : {
-                "name" : "Soul Orders",
+                "name" : "Order of Spirit",
                 "creatures" : [[ "spiritcrus" ]],
                 "guards" : [
                     { "amount" : 9, "type" : "spiritcrus" }
@@ -54,12 +54,12 @@
                 "templates" : {
                     "default" : {
                         "animation" : "asylum/map/dwellings/AVG185",
-                        "mask" : [ "VVV","VBB","VAB"                        ]
+                        "mask" : [ "VVV","VVV","VAB" ]
                     }
                 }
             },
             "asylumLevel6" : {
-                "name" : "Black Wood",
+                "name" : "Psychedelic Forest",
                 "creatures" : [[ "asnightmare" ]],
                 "guards" : [
                     { "amount" : 6, "type" : "asnightmare" }
@@ -67,7 +67,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "asylum/map/dwellings/AVG187",
-                        "mask" : ["VVV","BBB","BAB" ]
+                        "mask" : ["VVV","VBB","VAB" ]
                     }
                 }
             },
@@ -80,7 +80,7 @@
                 "templates" : {
                     "default" : {
                         "animation" : "asylum/map/dwellings/AVG189",
-                        "mask" : ["VVV","VBB","VAB" ]
+                        "mask" : ["VVV","VVV","VAB" ]
                     }
                 }
             }

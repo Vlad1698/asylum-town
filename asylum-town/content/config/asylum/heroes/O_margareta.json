@@ -62,9 +62,9 @@
 		"specialty" : {
 			"bonuses" : {
 				"forgetfulness" : {
-					"addInfo" : 3,
-					"subtype" : "forgetfulness",
-					"type" : "SPECIAL_FIXED_VALUE_ENCHANT"
+					"addInfo" : 0,
+					"subtype" : "spell.forgetfulness",
+					"type" : "SPECIAL_PECULIAR_ENCHANT"
 				}
 			}
 		}

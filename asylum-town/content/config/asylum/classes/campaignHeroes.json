@@ -9,9 +9,9 @@
 			},
 			"bonuses" : {
 				"shadowhunter2sharpshooter" : { "subtype" : "creature.shadowhunter" },
-				"phantomhunter2sharpshooter" : { "subtype" : "creature.phantomhunter" }
+				"phantomhunter2sharpshooter" : { "subtype" : "creature.phantomhunter" },
 			}
-		}
+		},
 	},
 	"core:ivor":
 	{
@@ -30,7 +30,7 @@
 					"val" : 1
 				}
 			}
-		}
+		},
 	},
 	"core:charna":
 	{
@@ -49,6 +49,6 @@
 					"val" : 1
 				}
 			}
-		}
+		},
 	}
 }

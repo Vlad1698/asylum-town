@@ -1,7 +1,0 @@
-{
-    "basepath" : "asylum/frames/",
-	"images" :
-	[
-		{ "frame" : 21, "file" : "pool"}
-	]
-}

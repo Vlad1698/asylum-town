@@ -4,7 +4,7 @@
 	
 	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.00",
+	"version" : "2.01",
 	"modType" : "Town",	
 	
     "factions" : [ "config/asylum/town" ],
@@ -73,7 +73,8 @@
 	],
 	"changelog" :
     {
-        "2.00"	: [ "Add stardust terrian for Asylum. New BGM for stardust which was made by myself" ],
+		"2.01"	: [ "Fixing and cleaning some files" ],
+		"2.00"	: [ "Add stardust terrian for Asylum. New BGM for stardust which was made by myself" ],
 		"1.50"	: [ "Some new partitions" ],
 		"1.20"	 : [ "Small fixes and a spell Gift Delivery for my 30th birthday, original name is Birthday Gift"],
 		"1.10"   : [ "Small fixes" ],

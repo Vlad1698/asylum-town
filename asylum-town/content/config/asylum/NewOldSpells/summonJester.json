@@ -61,7 +61,7 @@
 			},
 			"none":
 			{
-				"description": "{Gift Delivery}\r\n\r\nSummon a troops of Jesters to send birthday gifts to your 'friends'.",
+				"description": "{Gift Delivery}\r\n\r\nSummon a troop of Jesters to send birthday gifts to your 'friends'.",
 	 
 				"cost": 20,
 				"aiValue": 12,
@@ -70,7 +70,7 @@
 			},
 			"basic":
 			{
-				"description": "{Basic Gift Delivery}\r\n\r\nSummon a troops of Jesters to send birthday gifts to your 'friends'.",
+				"description": "{Basic Gift Delivery}\r\n\r\nSummon a troop of Jesters to send birthday gifts to your 'friends'.",
 	 
 				"cost": 18,
 				"aiValue": 12,
@@ -79,7 +79,7 @@
 			},
 			"advanced":
 			{
-				"description": "{Advanced Gift Delivery}\r\n\r\nSummon a troops of Jesters to send birthday gifts to your 'friends'.",
+				"description": "{Advanced Gift Delivery}\r\n\r\nSummon a troop of Jesters to send birthday gifts to your 'friends'.",
 	 
 				"cost": 18,
 				"aiValue": 12,
@@ -88,7 +88,7 @@
 			},
 			"expert":
 			{
-				"description": "{Expert Gift Delivery}\r\n\r\nSummon a troops of Jesters to send birthday gifts to your 'friends'.",
+				"description": "{Expert Gift Delivery}\r\n\r\nSummon a troop of Jesters to send birthday gifts to your 'friends'.",
 	 
 				"cost": 16,
 				"aiValue": 12,

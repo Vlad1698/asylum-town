@@ -4,7 +4,7 @@
 	
 	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.01",
+	"version" : "2.02",
 	"modType" : "Town",	
 	
     "factions" : [ "config/asylum/town" ],
@@ -73,6 +73,7 @@
 	],
 	"changelog" :
     {
+		"2.02"	: [ "Chinese translation from https://www.h3wog.com/thread-77661-1-1.html" ],
 		"2.01"	: [ "Fixing and cleaning some files" ],
 		"2.00"	: [ "Add stardust terrian for Asylum. New BGM for stardust which was made by myself" ],
 		"1.50"	: [ "Some new partitions" ],
@@ -86,6 +87,12 @@
 		"1.01"   : [ "Added new commander", "New puzzle by acidchalk", "Bug fixes" ],
 		"1.00"   : [ "Initial release" ]
     },
+	"chinese" : {
+		"name" : "梦境",
+		"translations" : [
+			"translation/asylum/chinese.json"
+		]
+	},
 	"german" : {
 		"name" : "Zuflucht",
 		"description" : "Zuflucht Stadt",

@@ -1,6 +1,7 @@
 {
 	"asylum" : {
 		"alignment" : "evil",
+		"boat" : "boatNecropolis",
 		"creatureBackground" : { "120px" : "asylum/creature-bg-120px.bmp", "130px" : "asylum/creature-bg-130px.bmp" },
 		"name" : "Asylum",
 		"nativeTerrain" : "stardust",
@@ -632,6 +633,7 @@
 			"guildWindow" : "asylum/town-screen/mage-guild.bmp",
 			"hallBackground" : "TPTHBKDG",
 			"horde" : [ 0, 3 ],
+			"moatAbility" : "asylumMoat",
 			"icons" : {
 				"village" : {
 					"normal" : {"small" : "asylum/icons/hall-small.bmp", "large" : "asylum/icons/hall-big.bmp" },
@@ -1079,7 +1081,6 @@
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground" : "asylum/town-screen/background.bmp",
 		"warMachine" : "ammoCart",
-		"moatAbility" : "castleMoat",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],

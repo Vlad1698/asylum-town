@@ -367,7 +367,7 @@
 					"id" : 26,
 					"mode" : "grail",
 					"bonuses": [
-						{ "type": "PRIMARY_SKILL", "subtype": "primSkill.spellpower", "val": 10 },
+						{ "type": "PRIMARY_SKILL", "subtype": "primarySkill.spellpower", "val": 10 },
 						{ "type": "SPELL_DAMAGE", "val": 30, "valueType": "ADDITIVE_VALUE","propagator": "PLAYER_PROPAGATOR" } 						
 					]
 				},

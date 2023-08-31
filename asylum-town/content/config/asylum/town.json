@@ -1,7 +1,8 @@
 {
 	"asylum" : {
 		"alignment" : "evil",
-		"boat" : "boatNecropolis",
+		"boat" : "boatAsylum",
+		"preferUndergroundPlacement": true,
 		"creatureBackground" : { "120px" : "asylum/creature-bg-120px.bmp", "130px" : "asylum/creature-bg-130px.bmp" },
 		"name" : "Asylum",
 		"nativeTerrain" : "stardust",

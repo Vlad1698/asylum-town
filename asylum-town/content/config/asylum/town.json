@@ -890,7 +890,7 @@
 					"border" : "asylum/town-screen/buildings-border/TOPSHRD1",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2,
+					"z" : 1,
 					"hidden" : true
 				},
 				"horde1Upgr" :
@@ -900,7 +900,7 @@
 					"border" : "asylum/town-screen/buildings-border/TOPSHRD2",
 					"x" : 0,
 					"y" : 0,
-					"z" : 2,
+					"z" : 1,
 					"hidden" : true
 				},
 				"boat" :
@@ -964,7 +964,8 @@
 					"area" : "asylum/town-screen/buildings-area/TZPSdw_0",
 					"border" : "asylum/town-screen/buildings-border/TOPSdw_0",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"dwellingLvl2" :
 				{
@@ -1024,7 +1025,8 @@
 					"area" : "asylum/town-screen/buildings-area/TZPSup_0",
 					"border" : "asylum/town-screen/buildings-border/TOPSup_0",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z" : 1
 				},
 				"dwellingUpLvl2" :
 				{

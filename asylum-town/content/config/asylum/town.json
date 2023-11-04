@@ -881,7 +881,8 @@
 					"area" : "asylum/town-screen/buildings-area/TZPSBLAK",
 					"border" : "asylum/town-screen/buildings-border/TOPSBLAK",
 					"x" : 0,
-					"y" : 0
+					"y" : 0,
+					"z"	: 6
 				},
 				"horde1" :
 				{
@@ -917,7 +918,7 @@
 					"animation" : "asylum/town-screen/buildings/TBPSSPEC",
 					"area" : "asylum/town-screen/buildings-area/TZPSSPEC",
 					"border" : "asylum/town-screen/buildings-border/TOPSSPEC",
-					"x" : 0,
+					"x" : 172,
 					"y" : 0,
 					"z" : 4
 				},

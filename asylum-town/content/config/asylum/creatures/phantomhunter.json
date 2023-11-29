@@ -77,25 +77,23 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 2, 2, 3, 3, 4, 4, 5, 5 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -103,7 +101,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 3, 3, 4, 4, 5 ]
@@ -119,90 +117,10 @@
 				"bonus" :
 				{
 					"type" : "ENCHANTED",
-					"subtype" : 27 //"spell.shield", 
+					"subtype" : "spell.shield", 
 				},
 				"values" : [ 0, 0, 0, 0, 1, 1, 1, 1, 1, 1 ]			
 			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 0 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 1 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 2 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 3 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 6 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 7 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 8 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 9 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 10 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 11 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},	
 			{
 				"bonus" :
 				{

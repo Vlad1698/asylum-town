@@ -54,7 +54,6 @@
                },
 		"abilities":
 		{
-	
 		      "immuneToMind" : 
 			{
 				"type" : "MIND_IMMUNITY"
@@ -71,7 +70,8 @@
 			{
 				"type" : "SPELL_AFTER_ATTACK",
 				"subtype" : "spell.birthdayGift",
-				"val" : 100
+				"val" : 100,
+				"addInfo" : [3,0]
 			}
 		},
 		"stackExperience" :
@@ -79,25 +79,23 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "attack",
+					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 0, 1, 1, 1, 1, 2, 2, 2, 2, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
-					"type" : "PRIMARY_SKILL",
-					"valueType" : "BASE_NUMBER"
+					"subtype" : "defence",
+					"type" : "PRIMARY_SKILL"
 				},
 				"values" : [ 1, 1, 1, 1, 2, 2, 2, 2, 3, 3 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1, //min
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 2, 2, 2 ]
@@ -105,7 +103,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 2, //max
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 1, 2, 2, 2, 2 ]
@@ -113,9 +111,3 @@
 		]
 	}
 }
-
-
-
-
-
-

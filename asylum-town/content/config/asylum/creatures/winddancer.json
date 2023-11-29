@@ -61,25 +61,23 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 0,
+					"subtype" : "attack",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 0, 1, 1, 2, 2, 2, 3, 3, 3, 4 ]
 			},	
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "defence",
 					"type" : "PRIMARY_SKILL"
-//					"valueType" : "BASE_NUMBER"
 				},
 				"values" : [ 1, 1, 1, 2, 2, 3, 3, 3, 4, 4 ]
 			},
 			{
 				"bonus" :
 				{
-					"subtype" : 2,
+					"subtype" : "creatureDamageMax",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 1, 1, 1, 2, 2, 2, 3, 3, 4 ]
@@ -87,7 +85,7 @@
 			{
 				"bonus" :
 				{
-					"subtype" : 1,
+					"subtype" : "creatureDamageMin",
 					"type" : "CREATURE_DAMAGE"
 				},
 				"values" : [ 0, 0, 1, 1, 1, 2, 2, 3, 3, 3 ]
@@ -95,81 +93,16 @@
 			{
 				"bonus" :
 				{
-					"type" : "HATE",
-					"subtype" : 0 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 1 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 2 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 3 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 6 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 7 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 8 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
-					"type" : "HATE",
-					"subtype" : 9 
-				},
-				"values" : [ 0, 0, 20, 20, 30, 30, 40, 40, 50, 60 ]
-			},
-			{
-				"bonus" :
-				{
 					"type" : "SPELL_AFTER_ATTACK",
-					"subtype" : 71, //"spell.poison",
-					"addInfo" : [1, 0] //71 - poison
+					"subtype" : "spell.poison",
+					"addInfo" : [1, 0]
 				},
 				"values" : [ 5, 10, 15, 20, 25, 30, 35, 40, 45, 50 ]				
 			},
 			{
 				"bonus" :
 				{
-					"type" : "GENERAL_ATTACK_REDUCTION",
-					"subtype" : 1
+					"type" : "GENERAL_ATTACK_REDUCTION"
 				},
 				"values" : [ 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 ]
 			},
@@ -181,5 +114,5 @@
 				"values" : [ 0, 0, 0, 1, 1, 1, 1, 1, 1, 1 ]
 			}
 		]
-  }	
-	}
+	}	
+}

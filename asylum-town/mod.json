@@ -4,7 +4,7 @@
 	
 	"author" : "just Ben Yan, no FF team any longer. BGM in Asylum was made by Heroes Orchestra.",
 	"contact" : "http://forum.vcmi.eu/index.php",
-	"version" : "2.06",
+	"version" : "2.07",
 	"modType" : "Town",	
 	
     "factions" : [ "config/asylum/town" ],
@@ -74,6 +74,7 @@
 	],
 	"changelog" :
     {
+		"2.07"	: [ "Added the creatures' stackExp and fixed the commander" ],
 		"2.06"	: [ "Update to vcmi-1.4 format" ],
 		"2.05"	: [ "Link to new terrian" ],
 		"2.04"	: [ "New portraits" ],

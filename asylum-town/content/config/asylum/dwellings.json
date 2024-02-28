@@ -64,6 +64,9 @@
                 "guards" : [
                     { "amount" : 6, "type" : "asnightmare" }
                 ],
+				"sounds": {
+					"ambient": ["dwellings/asydwl6.wav"]
+				},
                 "templates" : {
                     "default" : {
                         "animation" : "asylum/map/dwellings/AVG187",

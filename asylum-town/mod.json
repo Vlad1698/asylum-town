@@ -96,7 +96,7 @@
     },
 	"chinese" : {
 		"name" : "梦境",
-		"description" : "梦境",
+		"description" : "梦境是一个黑暗精灵为主体的种族。主要兵种为黑暗精灵和异界生物。均免疫心智和士气。",
 		"translations" : [
 			"translation/asylum/chinese.json"
 		]

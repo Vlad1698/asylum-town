@@ -7,7 +7,7 @@
 		"texts" :
 		{
 			"name" : "Alach",
-			"biography" : "As a mental strengthed warrior, Alach is cruel and merciless to any opposites. He never take off his mental mask since he had joined the Asylum.",
+			"biography" : "As a mental strengthed warrior, Alach is cruel and merciless to any opposites. He never takes off his mental mask since he had joined the Asylum.",
 			"specialty" :
 			{
 				"description" : "{Offence}\r\n\r\nReceives a 5% per level bonus to Offence skill percentage.",
@@ -20,8 +20,8 @@
 		{
 			"specialtySmall" : "asylum/heroes/alach/UN32T196.bmp",
 			"specialtyLarge" : "asylum/heroes/alach/UN44T196.bmp",
-			"large" : "asylum/heroes/alach/HPL000PF.bmp",
-			"small" : "asylum/heroes/alach/HPS000PF.bmp"
+			"large" : "asylum/heroes/alach/HPL000PF.png",
+			"small" : "asylum/heroes/alach/HPS000PF.png"
 		},
 		
 

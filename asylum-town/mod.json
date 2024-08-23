@@ -118,7 +118,7 @@
 	},
 	"russian" : {
 		"name" : "Убежище",
-		"description" : "Новый город",
+		"description" : "Новый город Убежище, созданный в тематике тёмного магического леса",
 		"translations" : [
 			"translation/asylum/russian.json"
 		]
